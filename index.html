@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="game-instruction">
+      <h2>Instructions:</h2>
+      <p>&rarr; arrow to move right</p>
+      <p>&larr; arrow to move left</p>
+      <p>&uarr; arrow to move up</p>
+      <p>&darr; arrow to move down</p>
+    </div>
+    <div class="score-board">
+      <p>All time high score: <span class="high-score">0</span></p>
+      <p>Your last score was: <span class="last-score">0</span></p>
+      <p>Your score is: <span class="current-score">0</span></p>
+    </div>
+    <div class="banner">
+      <p>Welcome To The Sanke Game...</p>
+    </div>
+    <div class="button">
+      <button class="restart-btn">Restart</button>
+    </div>
+    <canvas class="game-board"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

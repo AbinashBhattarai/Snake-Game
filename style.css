@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+body{
+  background-color: rgb(182, 230, 214);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.game-instruction{
+  width: 200px;
+  background-color: rgb(204, 190, 190);
+  text-align: center;
+  line-height: 30px;
+  border-radius: 10px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+.game-instruction p{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.score-board{
+  width: 500px;
+  margin: 30px auto;
+  font-size: 20px;
+  background-color: rgb(211, 144, 56);
+  padding: 10px;
+  text-align: center;
+  box-shadow: rgb(117, 110, 110) 10px 10px 30px;
+  border-radius: 20px;
+}
+.game-board{
+  background-color: rgb(186, 185, 184);
+  box-shadow: rgb(117, 110, 110) 10px 10px 30px;
+  border-radius: 20px;
+}
+.banner{
+  width: 500px;
+  background-color: rgb(211, 144, 56);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  box-shadow: rgb(117, 110, 110) 10px 10px 30px;
+  position: absolute;
+  top: 45%;
+  left: 33.75%;
+  border-radius: 10px;
+}
+.button{
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 33.75%;
+}
+.restart-btn{
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgb(109, 168, 223);
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
